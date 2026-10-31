@@ -82,25 +82,7 @@ prompt-injection-detection-lab/
 ├── scan_results.csv              # Example scan log; new scans append records
 ├── README.md                     # Project documentation
 └── screenshots/                  # 16 project and test-evidence screenshots
-    ├── 01-project-structure.png
-    ├── 02-malicious-detection.png
-    ├── 03-benign-detection.png
-    ├── 04-automated-tests fail.png
-    ├── 05-automated-tests pass.png
-    ├── 06-evaluation-results.png
-    ├── 07-evaluation-results.png
-    ├── 08-unseen-test-results.png
-    ├── 09-unseen-test-results.png
-    ├── 10-initial-evasion-test.png
-    ├── 11-initial-evasion-test.png
-    ├── 12-updated-unit-tests.png
-    ├── 13-updated-evasion-tests.png
-    ├── 14-final-evaluation.png
-    ├── 15-final-evaluation.png
-    └── 16-adversarial-context-check.png
 ```
-
-The `screenshots/` entries above define the intended 16-image evidence set. Add your actual screenshot files using these exact names so the image links below render correctly on GitHub. The screenshots support the project; the Python source and test scripts are the implementation.
 
 ## 6. Requirements
 
@@ -219,34 +201,11 @@ The unit-test command also completed successfully with **8 tests passing**. The 
 
 > **How to interpret these results:** The 100% figures describe performance only on these small, manually authored test cases. They are not evidence of 100% real-world detection, and they do not establish that the detector can stop prompt injection in a live AI system. The test cases are limited and may overlap with the patterns the detector was written to recognise. Always rerun the scripts after changing the code or datasets and update this section if the output changes.
 
-## 10. Screenshot evidence
+## 10. Screenshot Evidence
 
-Place the 16 images in the `screenshots/` folder, using the filenames shown below. These images are intended to document the repository, detector behaviour, logging, and test execution.
+The `screenshots/` folder contains 16 screenshots documenting the project structure, detector functionality, risk classifications, scan logging, automated tests, and evaluation results.
 
-1. **Repository overview** — `01-github-repository-overview.png`
-2. **Project file structure** — `02-project-file-structure.png`
-3. **Detector startup** — `03-detector-startup.png`
-4. **Instruction override detection** — `04-instruction-override-detection.png`
-5. **System prompt extraction** — `05-system-prompt-extraction.png`
-6. **Safety bypass detection** — `06-safety-bypass-detection.png`
-7. **Confidential data detection** — `07-confidential-data-detection.png`
-8. **Multiple-category HIGH risk** — `08-multiple-category-high-risk.png`
-9. **Benign prompt LOW risk** — `09-benign-prompt-low-risk.png`
-10. **CSV scan log** — `10-csv-scan-log.png`
-11. **Unit test results** — `11-unit-test-results.png`
-12. **Original evaluation results** — `12-original-evaluation-results.png`
-13. **Unseen test results** — `13-unseen-test-results.png`
-14. **Evasion test results** — `14-evasion-test-results.png`
-15. **Risk categories and scoring** — `15-risk-categories-and-scoring.png`
-16. **README and limitations** — `16-readme-and-limitations.png`
-
-Once the images have been added to GitHub, you can display selected evidence inline, for example:
-
-```md
-![Unit test results](screenshots/11-unit-test-results.png)
-![Unseen prompt evaluation](screenshots/13-unseen-test-results.png)
-![Evasion test results](screenshots/14-evasion-test-results.png)
-```
+These screenshots provide visual evidence of the project's development, implementation, and testing.
 
 ## 11. Scan logging and privacy considerations
 
@@ -307,5 +266,5 @@ This project is intended for educational purposes and portfolio demonstration on
 
 ---
 
-**Author:** Mojisola Akinbode  
+**Author:** Mojisola Veronica Akinbode  
 **Project:** Prompt Injection Detection Lab
